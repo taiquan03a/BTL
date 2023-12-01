@@ -1,0 +1,191 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+
+.space {
+    position: fixed;
+    top: 28px;
+    z-index: 9999;
+    width: 100%;
+    margin: auto;
+}
+
+.form-profile {
+    position: relative;
+    background-color: white;
+    max-width: 360px;
+    margin: 64px auto auto;
+    border: 1px solid rgb(230, 235, 245);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.close {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.close path {
+    stroke: #2a2d34;
+}
+
+.form-profile .avatar {
+    text-align: center;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-profile .avatar img {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+.form-profile .avatar .file-upload .camera,
+.input-profile {
+    /* position: absolute; */
+    bottom: 0px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.form-profile .avatar .file-upload input {
+    height: 58px;
+    width: 48px;
+    opacity: 0;
+}
+
+.form-profile .user-name-profile,
+.phonenumber,
+.user-email,
+.user-birth,
+.user-sex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    height: 84px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.form-profile .user-name-profile,
+.phonenumber,
+.user-email,
+.user-birth,
+.user-sex span {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(42, 45, 52);
+}
+
+.form-profile div .name-input,
+.phone-input,
+.mail-input,
+.birth-input {
+    position: relative;
+    margin-top: 4px;
+}
+
+.form-profile .birth-input {
+    height: 44px;
+    width: 100%;
+}
+
+.form-profile div div .name,
+.phone,
+.mail,
+.ant-picker {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    border: 1px solid transparent;
+    color: #2a2d34;
+    cursor: text;
+    box-sizing: border-box;
+    background-color: #f5f7fc;
+    border-radius: 4px;
+    width: 100%;
+    height: 44px;
+    padding: 12px;
+    outline: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form-profile div div .phone {
+    cursor: not-allowed;
+}
+
+.form-profile div div .birth input {
+    height: 44px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.ant-picker-panel-container {
+    width: auto;
+}
+
+.form-profile .user-sex .wrap-radio {
+    display: flex;
+    margin-top: 4px;
+    width: 20px;
+}
+
+.form-profile .user-sex .wrap-radio .radio-group .ant-radio-wrapper {
+    width: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.form-profile .user-sex .wrap-radio .radio-group .ant-radio-wrapper span {
+    margin-left: 4px;
+    font-weight: normal;
+}
+
+.form-profile .finish-button .fnbp {
+    background-color: #2dc275;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.form-profile .finish-button .fnbp span {
+    color: #ffffff;
+}
+.bottom .next-button {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #2dc275;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

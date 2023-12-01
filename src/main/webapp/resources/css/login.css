@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+}
+.sign-in-page {
+    height: 100%;
+    width: 100%;
+}
+
+.header-login {
+    background-color: #2dc275;
+    height: 124px;
+}
+
+.header-login .white-space {
+    height: 60px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+}
+
+.header-login .content-header-login {
+    background-color: transparent;
+    max-width: 360px;
+    margin: auto;
+    position: relative;
+}
+
+.header-login .close-tag {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    top: 30px;
+    position: absolute;
+}
+
+.content-header-login .close {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.content-header-login .close-tag .close path {
+    stroke: #ffffff;
+}
+
+.content-header-login .bot-header {
+    height: 64px;
+    position: relative;
+    margin: auto 0 0 0;
+}
+
+.content-header-login .bot-header .logo-white {
+    margin-left: 0px;
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+}
+
+.content-header-login .bot-header .sosip {
+    margin-top: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 76px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    line-height: 32px;
+    font-family: Raleway, sans-serif;
+}
+
+.content-header-login .bot-header .cute-dog {
+    position: absolute;
+    right: 20px;
+}
+
+/* sign in form */
+
+.sign-in-form {
+    margin: 20px auto;
+    background-color: white;
+    max-width: 360px;
+    padding: 16px;
+    text-align: left;
+    border-radius: 8px;
+    border: 1px #e6ebf5 solid;
+}
+
+.input-phone-number {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: ProximaNova, sans-serif;
+}
+
+.input-phone-number .Input {
+    height: 44px;
+    background-color: #e6e6e6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin: 0 0 0 5px;
+}
+
+.input-phone-number .Input[type="number"]::-webkit-inner-spin-button,
+.Input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-phone-number div {
+    background-color: #e6e6e6;
+    height: 44px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.input-phone-number div p {
+    margin: auto;
+}
+
+.check-rule {
+    margin-top: 10px;
+    display: flex;
+}
+
+.check-rule p {
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+}
+
+.check-rule a {
+    text-decoration: none;
+    color: #2dc275;
+    font-weight: bold;
+}
+
+.check-rule a:active {
+    text-decoration: none;
+    color: #2dc275;
+}
+
+.check-rule a:visited {
+    text-decoration: none;
+    color: #2dc275;
+}
+
+.check-rule .check {
+    height: 15px;
+    width: 15px;
+    justify-content: center;
+    margin: auto 10px;
+    border-radius: 8px;
+    border: 0.5px #e6e6e6 solid;
+    cursor: pointer;
+}
+
+.check-rule .check .active {
+    background-color: #2dc275;
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.check-rule p {
+    margin-bottom: 0;
+}
+
+/* this is bottom */
+
+.bottom {
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.rcld-li {
+    margin-top: 140px;
+}
+
+.bottom .next-button {
+    background-color: #2dc275;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.bottom .next-button:active {
+    background-color: #128c4d;
+}
+
+.bottom .or {
+    position: relative;
+    border-top: 1px solid rgb(230, 235, 245);
+    margin: 16px 0px;
+}
+
+.bottom span {
+    font-family: Raleway, sans-serif;
+    color: #828ba0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 16px;
+    top: -10px;
+    background: rgb(255, 255, 255);
+    margin: unset !important;
+}
+
+.bottom .login-api {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.bottom .login-api div {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #e6ebf5 !important;
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.btn-fb-login {
+    height: 40px;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.bottom .login-api .facebook,
+.gmail {
+    margin: auto 0;
+    width: auto;
+}
+
+.bottom .login-api div:active {
+    background-color: #e6e6e6;
+}
